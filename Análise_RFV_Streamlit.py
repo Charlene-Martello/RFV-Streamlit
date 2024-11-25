@@ -89,7 +89,7 @@ def main():
     #st.sidebar.image(Image)
 
     #Botão para carregar arquivo na aplicação
-    st.sidebar.write("##Suba o arquivo")
+    st.sidebar.write("## Suba o arquivo")
     data_file_1 = st.sidebar.file_uploader("Bank marketing data", type = ['csv', 'xlsx'])
 
     #Vefirica se há conteúdo carregado na aplicação
